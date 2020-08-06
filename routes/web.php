@@ -17,4 +17,4 @@ Route::get('/', function () {
     return ('XII RPL 4');
 });
 
-Route::get('/me','AuthoController@me');
+Route::get('/me','AuthController@me');
